@@ -1,4 +1,4 @@
-WebService-Amazon-SimpleDB-Server
+﻿WebService-Amazon-SimpleDB-Server
 
 This module aims to implement an opensorce server compatible with the full
 Amazon SimpleDB API 2009-04-15.
