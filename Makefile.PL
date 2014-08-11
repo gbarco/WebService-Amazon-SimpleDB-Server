@@ -8,7 +8,7 @@ WriteMakefile(
     AUTHOR           => q{Gonzalo Barco <gbarcouy@gmail.com>},
     VERSION_FROM     => 'lib/WebService/Amazon/SimpleDB/Server.pm',
     ABSTRACT_FROM    => 'lib/WebService/Amazon/SimpleDB/Server.pm',
-    LICENSE          => 'Artistic_2_0',
+    LICENSE          => 'perl',
     PL_FILES         => {},
     MIN_PERL_VERSION => v5.10.0,
     CONFIGURE_REQUIRES => {
