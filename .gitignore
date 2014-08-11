@@ -1,19 +1,28 @@
-/blib/
-/.build/
-_build/
+# Perl and Github related
+blib/
 cover_db/
-inc/
-Build
-!Build/
-Build.bat
 .last_cover_stats
-/Makefile
-/Makefile.old
-/MANIFEST.bak
-/META.yml
-/META.json
-/MYMETA.*
+.build/
+_build/
+inc/
+Makefile
+Makefile.old
+Build
+Build.bat
+META.*
+MYMETA.*
+MANIFEST.bak
+.lwpcookies
+.last_cover_stats
+author-test.pl
 nytprof.out
-/pm_to_blib
-*.o
-*.bs
+pod2htm*.tmp
+pm_to_blib
+
+# Explicitly all packaged archives
+WebService-Amazon-SimpleDB-Server-*
+WebService-Amazon-SimpleDB-Server-*.tar.gz
+
+# Some binaries
+*.tar.gz
+*.zip
